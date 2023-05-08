@@ -40,6 +40,7 @@
     <dependency-check-maven.version>8.2.1</dependency-check-maven.version>
     <jackson-databind-nullable.version>0.2.6</jackson-databind-nullable.version>
     <jacoco-maven-plugin.version>0.8.10</jacoco-maven-plugin.version>
+    <jooq.version>3.18.3</jooq.version>
     <license-maven-plugin.version>4.2</license-maven-plugin.version>
     <maven-enforcer-plugin.version>3.3.0</maven-enforcer-plugin.version>
     <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
@@ -112,6 +113,16 @@
         <groupId>javax.validation</groupId>
         <artifactId>validation-api</artifactId>
         <version>${validation-api.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jooq</groupId>
+        <artifactId>jooq</artifactId>
+        <version>${jooq.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jooq</groupId>
+        <artifactId>jooq-meta-extensions</artifactId>
+        <version>${jooq.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
